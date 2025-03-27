@@ -1,0 +1,15 @@
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\bin\Debug\net8.0\modul6_103022300106.exe
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\bin\Debug\net8.0\modul6_103022300106.deps.json
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\bin\Debug\net8.0\modul6_103022300106.runtimeconfig.json
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\bin\Debug\net8.0\modul6_103022300106.dll
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\bin\Debug\net8.0\modul6_103022300106.pdb
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\obj\Debug\net8.0\modul6_103022300106.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\obj\Debug\net8.0\modul6_103022300106.AssemblyInfoInputs.cache
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\obj\Debug\net8.0\modul6_103022300106.AssemblyInfo.cs
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\obj\Debug\net8.0\modul6_103022300106.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\obj\Debug\net8.0\modul6_103022300106.sourcelink.json
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\obj\Debug\net8.0\modul6_103022300106.dll
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\obj\Debug\net8.0\refint\modul6_103022300106.dll
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\obj\Debug\net8.0\modul6_103022300106.pdb
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\obj\Debug\net8.0\modul6_103022300106.genruntimeconfig.cache
+C:\Users\ASUS\desktop\Praktikum-Online\KPL\modul6_103022300106\modul6_103022300106\obj\Debug\net8.0\ref\modul6_103022300106.dll
