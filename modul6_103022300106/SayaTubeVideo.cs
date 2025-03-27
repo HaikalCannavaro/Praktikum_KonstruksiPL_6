@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,24 +15,31 @@ namespace modul6_103022300106
 
         public SayaTubeVideo(string title)
         {
-            if (string.IsNullOrEmpty(title) || title.Length > 100)
-            {
-                throw new ArgumentException("Judul video tidak boleh kosong atau lebih dari 100 karakter!");
-            }
+            Debug.Assert(title != null, "Judul video tidak boleh null.");
+            Debug.Assert(title.Length <= 200, "Judul video tidak boleh lebih dari 200 karakter.");
 
             Random rand = new Random();
             this.id = rand.Next(10000, 99999);
             this.title = title;
-            this.playCount = playCount;
+            this.playCount = 0;
         }
 
         public void IncreasePlayCount(int count)
         {
-            if (count < 0 || count > 10000000)
+            Debug.Assert(count <= 25000000, "Penambahan play count tidak boleh lebih dari 25.000.000");
+            Debug.Assert(count >= 0, "Play count tidak boleh negatif");
+            try
             {
-                throw new ArgumentOutOfRangeException("Jumlah play count harus di antara 0 dan 10 juta.");
+                checked
+                {
+                    playCount += count;
+                }
             }
-            playCount += count;
+            catch (OverflowException)
+            {
+                Console.WriteLine("Error: Playcount melebihi batas.");
+            }
+           
         }
 
         public void PrintVideoDetails()

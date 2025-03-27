@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,10 +15,8 @@ namespace modul6_103022300106
 
         public SayaTubeUser(string username)
         {
-            if(string.IsNullOrEmpty(username) || username.Length > 100)
-            {
-                throw new ArgumentException("Username tidak boleh kosong atau lebih dari 100 karakter!");
-            }
+            Debug.Assert(username != null, "Username tidak boleh null");
+            Debug.Assert(username.Length <= 100, "Username tidak boleh lebih dari 100 karakter");
 
             Random rand = new Random();
             this.id = rand.Next(10000, 99999);
@@ -27,10 +26,8 @@ namespace modul6_103022300106
 
         public void AddVideo(SayaTubeVideo video)
         {
-            if (video == null)
-            {
-                throw new ArgumentException("Video tidak boleh NULL!");
-            }
+            Debug.Assert(video != null, "Video tidak boleh null");
+            Debug.Assert(video.GetPlayCount() < int.MaxValue, "Playcount tidak boleh melebihi batas integer");
             uploadedVideos.Add(video);
         }
 
